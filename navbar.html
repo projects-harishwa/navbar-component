@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Navbar - Opensource</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <header>
+        <!-- For pc screen -->
+        <ul id="menuList">
+            <a href="#home">Home</a>
+            <a href="#docs">Documentation</a>
+            <a href="#wiki">Wikipedia</a>
+            <a href="#design">Design</a>
+        </ul>
+
+
+        <!-- For mobile screen -->
+        <ul id="manuList">
+            <a href="#home">Home</a>
+            <a href="#docs">Documentation</a>
+            <a href="#wiki">Wikipedia</a>
+            <a href="#design">Design</a>
+        </ul>
+
+        <!-- Hamburger icon and its animation -->
+        <div class="hamburger" onclick="togglemenu()">
+            <ion-icon name="remove-outline" class="first" id="first"></ion-icon><br>
+            <ion-icon name="remove-outline" class="second" id="second"></ion-icon>
+        </div>
+    </header>
+
+    
+    <script src="navbar.js"></script><!-- External script initialization -->
+
+    <!-- Icon pack -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
